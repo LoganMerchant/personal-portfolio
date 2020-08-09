@@ -53,16 +53,23 @@ header nav ul li {
 .hero {
     background-image: url("../images/hero.png");
     background-size: cover;
-    background-position: 80%;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
     align-items: flex-end;
-    justify-content: right;
+    width: 100%;
 }
 
 .hero img {
     max-width: 25%;
     opacity: .9;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    padding: 15px 20px;
+    border-top: dashed 2px black;
+    border-left: dashed 2px black;
 }
 
 /* ABOUT ME */
