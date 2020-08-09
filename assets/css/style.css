@@ -97,3 +97,76 @@ header nav ul li a:hover {
     line-height: 1.5;
     padding: 25px;
 }
+
+/***** MY WORK *****/
+.work {
+    display: flex;
+    justify-content: center; 
+}
+
+.work h2 {
+    display: flex;
+    align-items: center;
+}
+
+.work a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.work .grid-container {
+    display: inline-grid;
+    width: 75%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 25px;
+}
+
+.work .grid-item {
+    border: var(--primary-color) solid 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 15px 0;
+}
+
+.work .grid-item div {
+    background-color: rgba(0, 0, 0, .75);
+    padding: 10px;
+    line-height: 1.3;
+}
+
+.work .grid-item div h4 {
+    font-size: 14px;
+}
+
+.work .item-1 {
+    grid-area: 1 / 1 / 5 / 3;
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+}
+
+.work .item-2 {
+    grid-area: 1 / 3 / 3 / 4;
+    background-image: url(../images/vice-of-life.jpg);
+    background-size: cover;
+}
+
+.work .item-3 {
+    grid-area: 3 / 3 / 5 / 4;
+    background-image: url(../images/placeholder.jpg);
+    background-size: cover;
+}
+
+.work .item-4 {
+    grid-area: 5 / 1 / 7 / 2;
+    background-image: url(../images/placeholder.jpg);
+    background-size: cover;
+}
+
+.work .item-5 {
+    grid-area: 5 / 2 / 7 / 3;
+    background-image: url(../images/placeholder.jpg);
+    background-size: cover;
+}
