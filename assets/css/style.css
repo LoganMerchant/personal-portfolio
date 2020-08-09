@@ -12,8 +12,18 @@
 
 /* BODY */
 body {
-    background-color: gray);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.section-title {
+    font-size: 36px;
+    margin: 25px;
 }
 
 /* HEADER */
@@ -27,12 +37,7 @@ header {
 
 header h1 {
     justify-content: left;
-    font-size: 36px;
-}
-
-header a {
-    text-decoration: none;
-    color:black;
+    font-size: 40px;
 }
 
 header nav ul {
@@ -62,18 +67,80 @@ header nav ul li {
 .hero img {
     max-width: 25%;
     opacity: .9;
-    border-radius: 10px;
+    border-radius: 50px;
+    padding: 25px;
 }
 
 .hero h2 {
-    font-size: 48px;
+    font-size: 36px;
     padding: 15px 20px;
     border-top: dashed 2px black;
     border-left: dashed 2px black;
 }
 
 /* ABOUT ME */
+.about-me {
+    display: flex;
+    margin: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-me h2 {
+    width: 30%;
+    text-align: right;
+}
+
+.about-me p {
+    width: 75%;
+    border-left: 2px solid black;
+    padding: 25px;
+    line-height: 1.5;
+}
 
 /* MY WORK */
+.my-work {
+    display: flex;
+    margin: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-work h2 {
+    width: 30%;
+    text-align: right;
+}
+
+.my-work .grid-container {
+    width: 75%;
+    border-left: 2px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr; 
+}
+
+.my-work .grid-item {
+    padding: 25px;
+    
+}
 
 /* CONTACT ME */
+.contact-me {
+    display: flex;
+    margin: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-me h2 {
+    width: 30%;
+    text-align: right;
+}
+
+.contact-me ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 75%;
+    border-left: 2px solid black;
+}
