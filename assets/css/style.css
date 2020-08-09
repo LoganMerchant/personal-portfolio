@@ -16,6 +16,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.section-title {
+    font-size: 28px;
+    border-right: solid var(--primary-color) 3px;
+    padding-right: 25px;
+}
 /***** HEADER *****/
 header {
     display: flex;
@@ -23,6 +28,10 @@ header {
     background: linear-gradient(var(--secondary-color), var(--tertiary-color));
     padding: 25px;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
 }
 
 header a {
@@ -72,3 +81,19 @@ header nav ul li a:hover {
 }
 
 /***** ABOUT ME *****/
+.about {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.about h2 {
+    display: flex;
+    align-items: center;   
+}
+
+.about p {
+    width: 75%;
+    line-height: 1.5;
+    padding: 25px;
+}
