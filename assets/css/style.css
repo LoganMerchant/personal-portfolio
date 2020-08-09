@@ -21,6 +21,7 @@ body {
     border-right: solid var(--primary-color) 3px;
     padding-right: 25px;
 }
+
 /***** HEADER *****/
 header {
     display: flex;
@@ -46,11 +47,10 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 18px;
-    padding: 5px 15px;
+    padding: 15px 15px;
 }
 
 header nav ul li a:hover {
@@ -83,8 +83,9 @@ header nav ul li a:hover {
 /***** ABOUT ME *****/
 .about {
     display: flex;
-    padding: 25px;
+    padding: 25px 0;
     justify-content: center;
+    width: 100%;
 }
 
 .about h2 {
@@ -93,7 +94,7 @@ header nav ul li a:hover {
 }
 
 .about p {
-    width: 75%;
+    width: 74.75%;
     line-height: 1.5;
     padding: 25px;
 }
@@ -102,6 +103,8 @@ header nav ul li a:hover {
 .work {
     display: flex;
     justify-content: center; 
+    padding: 25px 0;
+    width: 100%;
 }
 
 .work h2 {
@@ -116,7 +119,7 @@ header nav ul li a:hover {
 
 .work .grid-container {
     display: inline-grid;
-    width: 75%;
+    width: 70%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 10px;
@@ -169,4 +172,32 @@ header nav ul li a:hover {
     grid-area: 5 / 2 / 7 / 3;
     background-image: url(../images/placeholder.jpg);
     background-size: cover;
+}
+
+/***** CONTACT ME *****/
+.contact {
+    display: flex;
+    justify-content: center; 
+    padding: 25px 0;
+    width: 100%;
+}
+
+.contact ul {
+    display: flex;
+    list-style: none;
+    width: 71%;
+    justify-content: space-around;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: var(--primary-color); 
+    padding: 15px;
+}
+
+.contact ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
 }
