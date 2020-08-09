@@ -1,4 +1,5 @@
 /* UNIVERSAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +7,48 @@
 }
 
 :root {
-    --primary-color: white;
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: gray;
+}
+
+/* BODY */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(var(--secondary-color), var(--tertiary-color));
+    padding: 25px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
 }
