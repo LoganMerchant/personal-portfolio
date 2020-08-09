@@ -6,12 +6,64 @@
 }
 
 :root {
-    
+    --primary-color: #C0C0C0;
+    --secondary-color: #535d66;
 }
 
 /* BODY */
+body {
+    background-color: gray);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 
 /* HEADER */
+header {
+    background-color: black;
+    background: linear-gradient(white, var(--primary-color));
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    justify-content: left;
+    font-size: 36px;
+}
+
+header a {
+    text-decoration: none;
+    color:black;
+}
+
+header nav ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: right;
+   list-style: none;
+}
+
+header nav ul li {
+    margin: 5px 25px;
+    font-size: 28px;
+
+}
+/* HERO */
+
+.hero {
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.hero img {
+    max-width: 25%;
+    opacity: .9;
+}
 
 /* ABOUT ME */
 
