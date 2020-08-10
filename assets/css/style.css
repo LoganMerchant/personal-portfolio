@@ -133,6 +133,12 @@ header nav ul li a:hover {
     align-items: flex-end;
     justify-content: flex-start;
     padding: 15px 0;
+    opacity: .5;
+    transition: .5s;
+}
+
+.work .grid-item:hover {
+    opacity: 1.0;
 }
 
 .work .grid-item div {
@@ -223,6 +229,10 @@ header nav ul li a:hover {
 
     .work .grid-container {
         width: 71.5%;
+    }
+
+    .work .grid-item {
+        opacity: 1;
     }
 
     .contact ul {
