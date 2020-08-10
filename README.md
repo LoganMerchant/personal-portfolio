@@ -14,8 +14,8 @@ I had to restart the stylesheet a second time after getting lost in the structur
 [Portfolio - Logan Merchant](https://loganmerchant.github.io/personal-portfolio/)
 
 ## Screenshots
-(./assets/images/screenshot-1)
-(./assets/images/screenshot-2)
+(./assets/images/screenshot-1.png)
+(./assets/images/screenshot-2.png)
 
 ## Contributors
 Logan Merchant 👍🏻
