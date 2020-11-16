@@ -165,13 +165,13 @@ header nav ul li a:hover {
 
 .work .item-3 {
     grid-area: 3 / 3 / 5 / 4;
-    background-image: url(../images/run-buddy.gif);
+    background-image: url(../images/demo.gif);
     background-size: cover;
 }
 
 .work .item-4 {
     grid-area: 5 / 1 / 7 / 2;
-    background-image: url(../images/placeholder.jpg);
+    background-image: url(../images/run-buddy.gif);
     background-size: cover;
 }
 
